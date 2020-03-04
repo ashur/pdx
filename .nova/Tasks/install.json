@@ -2,7 +2,7 @@
   "actions" : {
     "run" : {
       "enabled" : true,
-      "script" : "npm install"
+      "script" : "npm install --loglevel warn"
     }
   },
   "environment" : {

@@ -10,8 +10,8 @@ Get started in [Nova](https://panic.com/nova) with just a few clicks!
 
 [✨ Clone in Nova ✨](nova://clone?url=https://github.com/ashur/pdx.git)
 
-1. Run the **install** task to install dependencies
-1. Run the **develop** task to start serving the site locally
+1. Run the **Install** task to install dependencies
+1. Run the **Build & Serve** task to start serving the site locally
 
 ### Method Two: Clone in Terminal
 
@@ -25,7 +25,7 @@ Get started in [Nova](https://panic.com/nova) with just a few clicks!
 
 ### Serve the site locally
 
-- In Nova, switch to the **develop** task and click **Run** ▶️
+- In Nova, switch to the **Build & Serve** task and click **Run** ▶️
 - In a terminal, run the following command:
 
 ```
@@ -34,7 +34,7 @@ npm run start
 
 ### Build the site
 
-- In Nova, switch to the **develop** task and click **Build** 🔨
+- In Nova, switch to the **Build & Serve** task and click **Build** 🔨
 - In a terminal, run the following command:
 
 ```
