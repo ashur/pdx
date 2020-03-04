@@ -1,0 +1,13 @@
+{
+  "actions" : {
+    "run" : {
+      "enabled" : true,
+      "script" : "npm install"
+    }
+  },
+  "environment" : {
+    "NPM_CONFIG_COLOR" : "always"
+  },
+  "identifier" : "503E1C58-E7F2-4928-883D-2EC44ACF775A",
+  "openLogOnRun" : "start"
+}

@@ -1,0 +1,17 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "npm run build"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "npm run start"
+    }
+  },
+  "environment" : {
+    "NPM_CONFIG_COLOR" : "always"
+  },
+  "identifier" : "5A1BFB90-8B17-4D63-92A6-317A0202ED5B",
+  "openLogOnRun" : "start"
+}
