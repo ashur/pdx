@@ -2,6 +2,7 @@
   "name": "@ashur/pdx",
   "version": "1.0.0",
   "description": "",
+  "repository": "github:ashur/pdx",
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
