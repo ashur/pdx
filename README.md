@@ -8,7 +8,7 @@ A shortlist of Emily & Ashur's favorite spots in beautiful, sunny Portland, Oreg
 
 Get started in [Nova](https://panic.com/nova) with just a few clicks!
 
-[✨ Clone in Nova ✨](nova://clone/url?https://github.com/ashur/pdx.git)
+[✨ Clone in Nova ✨](nova://clone?url=https://github.com/ashur/pdx.git)
 
 1. Run the **install** task to install dependencies
 1. Run the **develop** task to start serving the site locally
