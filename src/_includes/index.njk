@@ -15,12 +15,9 @@
 	<meta name="twitter:title" content="{{ site.title }}">
 	<meta name="twitter:description" content="{{ site.description }}">
 
-	<link rel="stylesheet" href="https://use.typekit.net/lsz1tsk.css">
-
 	{% set css %}
 		{% include "css/index.css" %}
 		{% include "css/header.css" %}
-		{% include "css/footer.css" %}
 		{% include "css/location.css" %}
 	{% endset %}
 	<style>{{ css | safe }}</style>
@@ -42,6 +39,10 @@
 	<footer>
 		<a href="https://github.com/ashur/pdx">View Source</a>
 	</footer>
-	<!-- <script src="{{ '/script/index.js' | url }}"></script> -->
+	<link rel="stylesheet" href="https://use.typekit.net/lsz1tsk.css">
+	{% set css %}
+		{% include "css/footer.css" %}
+	{% endset %}
+	<style>{{ css | safe }}</style>
 </body>
 </html>
