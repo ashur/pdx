@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+
 	<title>{{ site.title }}</title>
 
 	<meta name="description" content="{{ site.description }}">
@@ -39,10 +39,10 @@
 	<footer>
 		<a href="https://github.com/ashur/pdx">View Source</a>
 	</footer>
-	<link rel="stylesheet" href="https://use.typekit.net/lsz1tsk.css">
 	{% set css %}
 		{% include "css/footer.css" %}
 	{% endset %}
 	<style>{{ css | safe }}</style>
+	<link rel="stylesheet" href="/fonts.css" media="print" onload="this.media='all'">
 </body>
 </html>

@@ -31,6 +31,8 @@ module.exports = function( config )
 		return smartquotes( string );
 	});
 
+	config.addPassthroughCopy( "src/fonts.css" );
+
 	return {
 		dir: {
 			input: 'src',
