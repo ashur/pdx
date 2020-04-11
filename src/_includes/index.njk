@@ -28,13 +28,13 @@
 		<p>{{ site.description }}</p>
 	</header>
 
-	<div class="locations">
-
-	{%- for location in collections.locations -%}
-		{% include "location.njk" %}
-	{%- endfor -%}
-
-	</div>
+	<main>
+		<div class="locations">
+			{%- for location in collections.locations -%}
+				{% include "location.njk" %}
+			{%- endfor -%}
+		</div>
+	</main>
 
 	<footer>
 		<a href="https://github.com/ashur/pdx">View Source</a>
