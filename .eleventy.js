@@ -1,4 +1,5 @@
 const smartquotes = require( 'smartquotes' );
+const CleanCSS = require( "clean-css" );
 
 module.exports = function( config )
 {
@@ -18,6 +19,11 @@ module.exports = function( config )
 		});
 
 		return classes.join( ' ' );
+	});
+
+	config.addFilter( "cssmin", string =>
+	{
+		return new CleanCSS({}).minify(string).styles;
 	});
 
 	config.addFilter( 'list', array =>

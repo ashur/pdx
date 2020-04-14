@@ -19,8 +19,8 @@
 		{% include "css/index.css" %}
 		{% include "css/header.css" %}
 		{% include "css/location.css" %}
-	{% endset %}
-	<style>{{ css | safe }}</style>
+	{% endset -%}
+	<style>{{ css | cssmin | safe }}</style>
 </head>
 <body>
 	<header>
@@ -43,6 +43,6 @@
 		{# include "css/fonts.css" #}
 		{% include "css/footer.css" %}
 	{% endset %}
-	<style>{{ css | safe }}</style>
+	<style>{{ css | cssmin | safe }}</style>
 </body>
 </html>
