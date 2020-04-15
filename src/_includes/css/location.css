@@ -24,11 +24,18 @@
 h2 a {
 	display: inline-block;
 	margin-bottom: 0.25em;
-	padding: 0.75em 1.75em 0.5em 1.75em;
+	padding: 0.75em 1.75em;
 	border: solid var( --color-dark ) 2px;
 	color: var( --color-dark );
+	line-height: 1.0;
 	text-decoration: none;
 	background-color: white; /* https://developer.mozilla.org/en-US/docs/Web/CSS/Privacy_and_the_:visited_selector */
+}
+
+@supports (-moz-appearance:none) {
+	h2 a {
+		padding-bottom: 0.5em;
+	}
 }
 
 h2 a:hover, h2 a:visited, h2 a:active {
