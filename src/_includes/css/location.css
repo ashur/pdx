@@ -5,18 +5,18 @@
 
 .location h2 {
 	margin-bottom: 3em;
-	font-family: oswald, Helvetica;
+	font-family: josefin-sans, Helvetica, sans-serif;
 	font-size: 1.125em;
-	font-weight: 550;
+	font-weight: 700;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
 
 .neighborhoods {
 	margin: 1.333333333em 0;
-	color: var( --color-mid );
-	font-family: oswald, Helvetica;
+	font-family: josefin-sans, Helvetica, sans-serif;
 	font-size: 0.75em;
+	font-weight: 600;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
@@ -24,7 +24,7 @@
 h2 a {
 	display: inline-block;
 	margin-bottom: 0.25em;
-	padding: 0.75em 1.75em;
+	padding: 0.75em 1.75em 0.5em 1.75em;
 	border: solid var( --color-dark ) 2px;
 	color: var( --color-dark );
 	text-decoration: none;
@@ -34,6 +34,11 @@ h2 a {
 h2 a:hover, h2 a:visited, h2 a:active {
 	color: white;
 	background-color: var( --color-dark );
+}
+
+em {
+	font-style: normal;
+	text-decoration: underline var( --color-light );
 }
 
 .emoji {
