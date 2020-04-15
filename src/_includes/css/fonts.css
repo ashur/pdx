@@ -1,7 +1,7 @@
 @font-face {
 font-family:"josefin-sans";
-src:url("/fonts/josefin-sans.ttf") format("opentype");
-font-display:swap;font-style:normal;
+src:url("/fonts/josefinsans-bold.ttf") format("opentype");
+font-display:swap;font-style:normal;font-weight:700;
 }
 @font-face {
 font-family:"adobe-caslon-pro";
