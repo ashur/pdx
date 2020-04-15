@@ -1,11 +1,7 @@
 footer {
 	border-bottom: double var( --color-dark ) 3px;
 	padding: 5.33em 0;
-	font-family: myriad-pro, Helvetica;
-	font-size: 0.75em;
-	letter-spacing: 1px;
 	text-align: center;
-	text-transform: uppercase;
 }
 
 footer a {

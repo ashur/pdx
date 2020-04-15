@@ -5,17 +5,18 @@
 
 .location h2 {
 	margin-bottom: 3em;
-	font-family: myriad-pro, Helvetica;
+	font-family: josefin-sans, sans-serif;
 	font-size: 1.125em;
+	font-weight: 700;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
 
 .neighborhoods {
 	margin: 1.333333333em 0;
-	color: var( --color-mid );
-	font-family: myriad-pro, Helvetica;
+	font-family: josefin-sans, sans-serif;
 	font-size: 0.75em;
+	font-weight: 700;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
@@ -26,13 +27,25 @@ h2 a {
 	padding: 0.75em 1.75em;
 	border: solid var( --color-dark ) 2px;
 	color: var( --color-dark );
+	line-height: 1.0;
 	text-decoration: none;
 	background-color: white; /* https://developer.mozilla.org/en-US/docs/Web/CSS/Privacy_and_the_:visited_selector */
+}
+
+@supports (-moz-appearance:none) {
+	h2 a {
+		padding-bottom: 0.5em;
+	}
 }
 
 h2 a:hover, h2 a:visited, h2 a:active {
 	color: white;
 	background-color: var( --color-dark );
+}
+
+em {
+	font-style: normal;
+	text-decoration: underline var( --color-light );
 }
 
 .emoji {
