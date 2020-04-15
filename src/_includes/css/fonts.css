@@ -1,6 +1,6 @@
 @font-face {
 font-family:"josefin-sans";
-src:url("/fonts/josefinsans-bold.ttf") format("opentype");
+src:url("https://use.typekit.net/af/33782b/00000000000000003b9b25a0/27/l?primer=81a69539b194230396845be9681d114557adfb35f4cccc679c164afb4aa47365&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/33782b/00000000000000003b9b25a0/27/d?primer=81a69539b194230396845be9681d114557adfb35f4cccc679c164afb4aa47365&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/33782b/00000000000000003b9b25a0/27/a?primer=81a69539b194230396845be9681d114557adfb35f4cccc679c164afb4aa47365&fvd=n7&v=3") format("opentype");
 font-display:swap;font-style:normal;font-weight:700;
 }
 @font-face {
