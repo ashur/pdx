@@ -5,7 +5,7 @@
 
 .location h2 {
 	margin-bottom: 3em;
-	font-family: myriad-pro, Helvetica;
+	font-family: oswald, Helvetica;
 	font-size: 1.125em;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -14,7 +14,7 @@
 .neighborhoods {
 	margin: 1.333333333em 0;
 	color: var( --color-mid );
-	font-family: myriad-pro, Helvetica;
+	font-family: oswald, Helvetica;
 	font-size: 0.75em;
 	letter-spacing: 1px;
 	text-transform: uppercase;

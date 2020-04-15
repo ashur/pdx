@@ -37,7 +37,7 @@ module.exports = function( config )
 		return smartquotes( string );
 	});
 
-	config.addPassthroughCopy( "src/fonts.css" );
+	config.addPassthroughCopy( "src/fonts" );
 
 	return {
 		dir: {
