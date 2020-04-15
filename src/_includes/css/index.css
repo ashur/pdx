@@ -8,7 +8,7 @@
 body {
 	padding: 0.5em;
 	color: var( --color-dark );
-	font-family: garamond, serif;
+	font-family: adobe-caslon-pro, serif;
 	font-size: 16px;
 	font-style: normal;
 }
@@ -23,10 +23,6 @@ h1, h2, p {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-}
-
-h1 {
-	font-weight: 500;
 }
 
 p {
