@@ -30,7 +30,7 @@
 
 	<main>
 		<div class="locations">
-			{%- for location in collections.locations | slice( 2 ) -%}
+			{%- for location in collections.locations | slice( 0 ) -%}
 				{% include "location.njk" %}
 			{%- endfor -%}
 		</div>
