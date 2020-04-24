@@ -44,5 +44,33 @@
 		{% include "css/footer.css" %}
 	{% endset %}
 	<style>{{ css | cssmin | safe }}</style>
+	<script>
+	(function(){
+		function render( locations )
+		{
+			let content = "";
+			locations.forEach( function( location )
+			{
+				content += `<div class="location">
+					<h2><a href="${location.url}">${location.title}</a></h2>
+					${location.content}
+					<p class="neighborhoods">${location.neighborhoods.join( ", " )}</p>
+					<span class="emoji" role="img" aria label="${location.emoji.label}">${location.emoji.character}</span></div>`
+			});
+
+			document.querySelector( ".locations" ).innerHTML = content;
+		}
+
+		fetch( "/data.json" )
+			.then( function( res )
+			{
+				return res.json()
+			})
+			.then( function( json )
+			{
+				render( json );
+			});
+	})();
+	</script>
 </body>
 </html>

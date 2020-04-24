@@ -32,14 +32,34 @@ module.exports = function( config )
 			.join( ", " );
 	});
 
+	config.addFilter( "slice", (array, count) =>
+	{
+		return array.slice( 0, count );
+	});
+
 	config.addFilter( 'smartquotes', string =>
 	{
 		return smartquotes( string );
 	});
 
-	config.addFilter( "slice", (array, count) =>
+	config.addFilter( "stringify", (collection) =>
 	{
-		return array.slice( 0, count );
+		let data = collection.map( item =>
+		{
+			return {
+				title: item.data.title,
+				url: item.data.url,
+				neighborhoods: item.data.neighborhoods,
+				emoji: item.data.emoji,
+				content: item._templateContent.trim(),
+			}
+		})
+		.sort( (a,b) =>
+		{
+			return a.title < b.title;
+		});
+
+		return JSON.stringify( data );
 	});
 
 	return {
