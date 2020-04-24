@@ -37,6 +37,11 @@ module.exports = function( config )
 		return smartquotes( string );
 	});
 
+	config.addFilter( "slice", (array, count) =>
+	{
+		return array.slice( 0, count );
+	});
+
 	return {
 		dir: {
 			input: 'src',
