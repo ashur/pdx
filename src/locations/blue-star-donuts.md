@@ -10,6 +10,6 @@ neighborhoods:
 emoji:
   character: 🍩
   label: donut
+hidden: true
 ---
 Show up early to grab a _hard apple cider fritter_ or a _buttermilk old-fashioned_. They go fast.
-
